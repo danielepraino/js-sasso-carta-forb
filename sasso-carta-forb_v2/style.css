@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One');
+
+body {
+  color: #353738;
+  font-family: 'Carter One', cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.hands {
+  font-size: 70px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hands p {
+  font-size: 20px;
+}
+
+#result {
+  text-align: center;
+}
+
+#playerHand {
+  color: #999;
+  margin-right: 50px;
+}
+
+#btnMove {
+  color: #FFF;
+  font-size: 20px;
+  text-decoration: none;
+  background: linear-gradient(to top, #232526, #414345);
+  border-radius: 10px;
+  padding: 10px 30px;
+  transition: 0.3s;
+}
+
+#btnMove:hover {
+  color: #353738;
+  background: linear-gradient(to top, #ece9e6, #ffffff);
+  box-shadow: 0px 5px 10px 0px rgba(184,184,184,1);
+}
